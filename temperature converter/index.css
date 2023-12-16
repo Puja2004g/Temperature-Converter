@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+    margin-top: 70px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/scene-with-snow-falling-field_1308-43997.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+}
+
+.container{
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.input-container {
+    display: flex;
+}
+
+input {
+    font-size: larger;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+    width: 13rem;
+    height: 7rem;
+    background-color: rgb(105, 105, 105, 0.8);
+    color: white;
+    border: solid black;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.convert{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 30px;
+    width: 10rem;
+    height: 2.3rem;
+    font-size: large;
+    background-color: maroon;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Kalnia', serif;
+}
